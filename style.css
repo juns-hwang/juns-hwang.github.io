@@ -261,29 +261,29 @@ section {
   gap: 1rem;
 }
 
-/* ABOUT SECTION */
+/* education SECTION */
 
-#about {
+#education {
   position: relative;
 }
 
-.about-containers {
+.education-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-.about-details-container {
+.education-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
-.about-containers,
-.about-details-container {
+.education-containers,
+.education-details-container {
   display: flex;
 }
 
-.about-pic {
+.education-pic {
   border-radius: 2rem;
   height: 400px;
   width: 400px;
