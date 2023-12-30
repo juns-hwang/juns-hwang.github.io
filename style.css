@@ -261,31 +261,31 @@ section {
   gap: 1rem;
 }
 
-/* education SECTION */
+/* about SECTION */
 
-#education {
+#about {
   position: relative;
 }
 
-.education-containers {
+.about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-.education-details-container {
+.about-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
-.education-containers,
-.education-details-container {
+.about-containers,
+.about-details-container {
   display: flex;
 }
 
-.education-pic {
+.about-pic {
   border-radius: 2rem;
-  height: 430px;
+  height: 450px;
   width: 400px;
   border: rgb(200, 200, 200) 0.1rem solid;
 }
@@ -308,7 +308,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 70%;
 }
 
 .section__pic-container {
