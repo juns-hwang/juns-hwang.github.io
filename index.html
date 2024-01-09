@@ -38,6 +38,7 @@
       </div>
     </div>
   </nav>
+  <!--Section 0 MAIN-->
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/profile_pic.png" alt="Jun Hwang profile picture" />
@@ -56,56 +57,100 @@
       </div>
       <div id="socials-container">
         <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-          onclick="location.href='https://www.linkedin.com/in/junhwang0921/'" />
+          onclick="location.href='https://www.linkedin.com/in/juns-hwang/'" />
         <img src="./assets/github.png" alt="My Github profile" class="icon"
           onclick="location.href='https://github.com/juns-hwang'" />
       </div>
     </div>
   </section>
+
+  <!--Section 1 ABOUT-->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About me</h1>
+    <br>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to my website! My name is Jun Hwang, and I am a
+      student studying Data Science with emphasis in Economics at UC Berkeley.
+      Throughout the course of my academic journey and internships, I have developed a strong foundation in data
+      analytics, statistical analysis, data pipelining, and applications of AI/ML.
+      I am looking for opportunities to apply these skills to make an impact in the technology sector!
+
+    </p>
+    <br>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, I am a Data Science intern at Quizlet on the Growth Data Science team.
+      At Quizlet, I analyzed various campaigns through A/B testing, developed dashboards outlining
+      various growth metric changes, and created a data pipeline for Quizlet's End of Year Review campaign,
+      capturing user-level metrics for 60+ million users.
+      Tools I use on a daily basis at Quizlet are: SQL (BigQuery), Python, and DBT.
+      Previously, I have worked at Fremont Bank and Callisto as Data Analyst intern and Data Science Researcher.
+      For the summer of 2024, I will be joining Atlassian as a Data Science Intern.
+    </p>
+    <br>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In my free time, I like to go to the gym, play basketball, hang out with friends,
+      and play video games. Also, I am a huge Coke Zero addict! Guess how many cans of Coke Zero I drink a day!
+      <br>
+      <hr style="height:8px; visibility:hidden;" />
+      <center><button onclick="hideText()"><big>&nbsp;Answer&nbsp;</big></button></center>
+    <div id="myDIV">
+      <center>
+        <hr style="height:2px; visibility:hidden;" />
+        <p>3 Cans! I should drink less :(</p>
+      </center>
+    </div>
+    </p>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+
+
+  <!--Section 2 EDUCATION-->
   <section id="education">
-    <p class="section__text__p1">About Me</p>
+    <p class="section__text__p1">More About Me</p>
     <h1 class="title">Education</h1>
     <div class="section-container">
       <div class="section__pic-container">
-        <img src="./assets/ucb.png" alt="Profile picture" />
+        <img src="./assets/ucblogo.png" alt="Profile picture" />
       </div>
       <div class="education-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <img src="./assets/ucblogo.png" alt="Experience icon" class="icon" />
             <h3>University of California, Berkeley</h3>
-            <p>Bachelors in Data Science - Domain Emphasis: Economics
+            <p><b>B.A. in Data Science</b>
+              <br>(Concentration: Economics)
               <br> August 2020 - December 2024
             </p>
           </div>
         </div>
-        <div class="text-container">
-          <h4>Relevant Coursework:</h4>
-          <p>
-            Principles and Techniques of Data Science, Data Engineering, Data Mining and Analytics,
-            Probability for Data Science, Data Structures and Algorithms, Econometrics, Economic Analysis - Micro,
-            Economic Models
-          </p>
+        <h4>Relevant Coursework:</h4>
+        <p>
+          Principles and Techniques of Data Science, Data Engineering, Data Mining and Analytics,
+          Probability for Data Science, Data Structures and Algorithms, Econometrics, Microeconomics,
+          Economic Models
+        </p>
+        <br>
+        <h4>Activities:</h4>
+        <p>
+          Researcher - Data Science Discovery Program (Spring 2023)
           <br>
-          <h4>Activities:</h4>
-          <p>Researcher - Data Science Discovery Program (Spring 2023)
-            <br> Project Developer - DataGood @ Berkeley (Fall 2023)
-          </p>
-        </div>
+          Project Developer - DataGood @ Berkeley (Fall 2023)
+        </p>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
+  <!--Section 3 EXPERIENCE-->
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experiences</h1>
     <p class="section__text__p1">* View further details on my
       <a href="assets/JunHwang - Resume.pdf"><i>Resume</i></a>
     </p>
-
-    <!--Exp1-->
     <div class="experience-details-container">
       <div class="about-containers">
+        <!--Exp1-->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/atlassian.png" alt="Project 1" class="project-img" />
@@ -113,19 +158,23 @@
           <h2 class="experience-sub-title project-title">Atlassian</h2>
           <h4>Data Science Intern</h4>
           <p>5/2024 - 8/2024</p>
+          <p><i><small>San Francisco, CA</small></i></p>
           <hr style="height:8px; visibility:hidden;" />
           <p><small>Incoming Summer 2024</small></p>
         </div>
+        <!--Exp2-->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/q.png" alt="Project 2" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Quizlet</h2>
+          <h2 class="experience-sub-title project-title">&nbsp;Quizlet&nbsp;</h2>
           <h4>Data Science Intern</h4>
           <p>8/2023 - 5/2024</p>
+          <p><i><small>San Francisco, CA</small></i></p>
           <hr style="height:8px; visibility:hidden;" />
           <p><small>Skills: Python, SQL, DBT</small></p>
         </div>
+        <!--Exp3-->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/fb.png" alt="Project 3" class="project-img" />
@@ -133,10 +182,11 @@
           <h4 class="experience-sub-title project-title">Fremont Bank</h4>
           <h4>Data Analyst Intern</h4>
           <p>5/2023 - 8/2023</p>
+          <p><i><small>Livermore, CA</small></i></p>
           <hr style="height:8px; visibility:hidden;" />
           <p><small>Skills: MS Excel, MS PowerBI</small></p>
         </div>
-
+        <!--Exp4-->
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/callisto.png" alt="Project 3" class="project-img" />
@@ -144,6 +194,7 @@
           <h4 class="experience-sub-title project-title">Callisto</h4>
           <h4>Researcher</h4>
           <p>2/2023 - 5/2023</p>
+          <p><i><small>Berkeley, CA</small></i></p>
           <hr style="height:8px; visibility:hidden;" />
           <p><small>Skills: Python, MS Excel</small></p>
         </div>
@@ -151,7 +202,7 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
-
+  <!--Section 4 PROJECTS-->
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
@@ -171,7 +222,7 @@
           <br>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/junh0921/Youtube-Category-Validation'">
+              onclick="location.href='https://github.com/juns-hwang/Youtube-Category-Validation'">
               Github
             </button>
           </div>
@@ -186,7 +237,7 @@
           <br>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/junh0921/Query-Performance'">
+              onclick="location.href='https://github.com/juns-hwang/Query-Performance'">
               Github
             </button>
           </div>
@@ -201,7 +252,7 @@
           <br>
           <div class="btn-container">
             <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/junh0921/Housing-Price-Predictor'">
+              onclick="location.href='https://github.com/juns-hwang/Housing-Price-Predictor'">
               Github
             </button>
           </div>
@@ -210,6 +261,7 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
+  <!--Section 5 CONTACT-->
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
@@ -220,7 +272,7 @@
       </div>
       <div class="contact-info-container">
         <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-        <p><a href="https://www.linkedin.com/in/junhwang0921/">LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/juns-hwang/">LinkedIn</a></p>
       </div>
     </div>
   </section>
